@@ -29,8 +29,14 @@ github_username:  jorisgillis
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
+plugins:
   - jekyll-feed
+  - jekyll-analytics
+
+# Jekyll Analytics
+jekyll_analytics:
+  GoogleAnalytics:
+    id: UA-102048976-1
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -43,3 +49,4 @@ gems:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
